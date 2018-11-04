@@ -34,7 +34,6 @@ object Utils {
         fragmentTransaction.commit()
     }
 
-
     private fun isFragmentAlreadyAdded(fragmentManager: FragmentManager, className: Class<out Fragment>): Boolean{
         val fragnentList = fragmentManager.fragments
         fragnentList.forEach { fragment ->
